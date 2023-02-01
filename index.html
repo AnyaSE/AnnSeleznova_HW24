@@ -8,6 +8,89 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="nav">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">About us</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Visit our store</a>
+                </li>
+                <li class="nav__item">
+                    <button class="button--primary">Log in</button>
+                </li>
+            </ul>
+            <!-- end of navigation section above -->
+        </header>
+        <main class="main">
+            <div class="nav__panel">
+                <h2 class="nav__title">
+                    List of categories
+                </h2>
+                <ul class="category">
+                    <li class="category__item" id="makeup">
+                        Make up
+                    </li>
+                </ul>
+            </div>
+            <div class="product__overview--makeup">
+                <div class="product__wrapper" id="product__mascara">
+                    <img src="imgs/mascara.jpg" class="product__img" alt="mascara">
+                    <h3 class="product__subtitle">Dior Show Iconic Mascara</h3>
+                    <p class="product__info">Black waterproof mascara</p>
+                </div>
+                <div class="product__wrapper" id="product__foundation">
+                    <img src="imgs/Foundation.jpg" class="product__img"  alt="foundation">
+                    <h3 class="product__subtitle">Dior Forever Foundation</h3>
+                    <p class="product__info">Clean matte foundation - 24H wear</p>
+                </div>
+                <div class="product__wrapper" id="product__shadow">
+                    <img src="imgs/eye shadow.jpg" class="product__img"  alt="eye shadow">
+                    <h3 class="product__subtitle">Dior Backstage Eye Pallette</h3>
+                    <p class="product__info">Ultra-pigmented and multi-texture eye palette</p>
+                </div>
+                <div class="product__wrapper" id="product__lipstick">
+                    <img src="imgs/Lipstick.jpg" class="product__img"   alt="lipstick">
+                    <h3 class="product__subtitle">DIOR Addict Lipstick</h3>
+                    <p class="product__info">Hydrating shine lipstick</p>
+                </div>
+            </div>
+            <div class="product__information">
+                <div class="product__purchase" id="purchase__mascara">
+                    <img src="imgs/mascara.jpg" class="purchase__img" alt="mascara">
+                    <h3 class="product__subtitle">Dior Show Iconic Mascara</h3>
+                    <p class="product__info">Black waterproof mascara. This mascara will take you through the whole day without any smudges. Color is black</p>
+                    <p class="product__info">Price - USD 60</p>
+                    <button class="button--primary"  id="btn_purchase">Buy now</button>
+                </div>
+                <div class="product__purchase" id="purchase__foundation">
+                    <img src="imgs/Foundation.jpg" class="purchase__img"  alt="foundation">
+                    <h3 class="product__subtitle">Dior Forever Foundation</h3>
+                    <p class="product__info">Clean matte foundation - 24H wear. This colour pallet will suit beige skin tone perfectly. Long wear - last the whole day.</p>
+                    <p class="product__info">Price - USD 100</p>
+                    <button class="button--primary"  id="btn_purchase">Buy now</button>
+                </div>
+                <div class="product__purchase" id="purchase__eyeshd">
+                    <img src="imgs/eye shadow.jpg" class="purchase__img"  alt="eye shadow">
+                    <h3 class="product__subtitle">Dior Backstage Eye Pallette</h3>
+                    <p class="product__info">Ultra-pigmented and multi-texture eye palette. Your favourite winter colours all in one palette. Will be perfect for any occasion.</p>
+                    <p class="product__info">Price - USD 80</p>
+                    <button class="button--primary"  id="btn_purchase">Buy now</button>
+                </div>
+                <div class="product__purchase" id="purchase__lipstick">
+                    <img src="imgs/Lipstick.jpg" class="purchase__img"  alt="lipstick">
+                    <h3 class="product__subtitle">DIOR Addict Lipstick</h3>
+                    <p class="product__info">Hydrating shine lipstick. This lipstick will ensure that your lips are well hydrated and bright. Perfect for bsoth daytime and evening wear.</p>
+                    <p class="product__info">Price - USD 55</p>
+                    <button type="button" class= "button--primary" id="btn_purchase">Buy now</button>
+                </div>
+            </div>
+        </main>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
