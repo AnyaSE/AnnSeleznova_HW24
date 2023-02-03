@@ -4,6 +4,7 @@ body {
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 0;
+    height: 100%;
 }
 
 .header, .nav {
@@ -59,7 +60,7 @@ ol, ul, li {
     background-image: url("../imgs/waves.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 120vh;
+    height: 200vh;
 }
 
 .nav__panel {
@@ -102,27 +103,29 @@ ol, ul, li {
     color: white;
 }
 
-.product__overview--makeup, .product__wrapper, .product__overview--skincare {
+.product__overview--makeup, .product__wrapper--skincare, .product__wrapper--makeup, .product__overview--skincare {
     display: flex; 
 }
 
 .product__overview--makeup, .product__overview--skincare {
     width: 50%;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
-.product__wrapper, .product__wrapper--skincare {
+.product__wrapper--skincare, .product__wrapper--makeup {
     flex-direction: column;
     padding: 15px;
     padding-top: 20px;
-    width: 35%;
+    width: 250px;
     border: 2px solid white;
     margin: 30px;
     border-radius: 20px;
     display: none;
+    height: 40vh;
 }
 
-.product__wrapper:hover, .product__wrapper--skincare:hover {
+.product__wrapper--makeup:hover, .product__wrapper--skincare:hover {
     box-shadow: 1px 5px white;
     transform: scale(1.1);
 }
